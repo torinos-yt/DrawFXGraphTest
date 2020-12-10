@@ -1,0 +1,20 @@
+shader Fresnel : ComputeFloat, NormalStream, Transformation
+{
+    compose ComputeFloat4 Position;
+    compose ComputeFloat Exp;
+
+    override float Compute()
+    {
+        float3 posW = Position.Compute().xyz;
+        float3 eye = ViewInverse[3].xyz;
+        float3 normal = streams.meshNormal;
+
+        float exp = Exp.Compute();
+
+        float3 eyeDir = normalize(eye - posW);
+
+        float d = dot(eyeDir, normal);
+
+        return saturate(pow(1.0 - d, exp));
+    }
+};

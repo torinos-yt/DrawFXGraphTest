@@ -1,0 +1,37 @@
+shader FresnelInstancing_DrawFX : VS_PS_Base
+{
+    //Instance Space Position
+    stream float3 PositionIS : POSITION_IS;
+
+    struct Matrix
+    {
+        float4x4 mat;
+    };
+
+    StructuredBuffer<Matrix> TransformBuffer;
+    StructuredBuffer<float4> PositionBuffer;
+    StructuredBuffer<float4> ColorBuffer;
+
+    float Exp = 2.0;
+
+    override stage void VSMain()
+    {
+        //float4 instancePos = mul(streams.Position, TransformBuffer[streams.InstanceID].mat);
+        float4 instancePos = streams.Position + PositionBuffer[streams.InstanceID];
+        streams.ShadingPosition = mul(instancePos, WorldViewProjection);
+        streams.PositionIS = instancePos.xyz;
+    }
+
+    override stage void PSMain()
+    {
+        float3 normal = streams.meshNormal;
+
+        float3 wPos = streams.PositionIS;
+        float3 eye = ViewInverse[3].xyz;
+        float3 eyeDir = normalize(eye - wPos);
+
+        float d = dot(normal, eyeDir);
+
+        streams.ColorTarget = ColorBuffer[streams.InstanceID] * saturate(pow(1.0 - d, Exp));
+    }
+};
