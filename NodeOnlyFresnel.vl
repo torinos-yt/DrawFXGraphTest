@@ -202,7 +202,7 @@
             <Pin Id="LCjKbyMxt9XN918jHrHVKv" Name="Y" Kind="OutputPin" />
             <Pin Id="KtH8K6GzAmONSbwX1SX8YY" Name="Z" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1045,-496,25,19" Id="NkqaTdlbKvjNeZ0Z8NZvcQ">
+          <Node Bounds="1076,-481,25,19" Id="NkqaTdlbKvjNeZ0Z8NZvcQ">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="In" />
@@ -294,7 +294,7 @@
             <Pin Id="U44K1SDnofqL4JQB2JznHh" Name="Input 2" Kind="InputPin" />
             <Pin Id="Qnrk1oQusb9P3S0bUYnCrc" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1080,-454,25,19" Id="DSWUbQib7y4MQyKcBLE0Ln">
+          <Node Bounds="1111,-439,25,19" Id="DSWUbQib7y4MQyKcBLE0Ln">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Operations" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="ShaderFX" />
@@ -349,27 +349,6 @@
             <Pin Id="NtYNQSQuEvMMU43Rrh1zGX" Name="Input" Kind="InputPin" />
             <Pin Id="A08hqpnWVaDMHVyff9HFF3" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="676,-569,94,26" Id="OBAyLATwjukQMLKWS5FllY">
-            <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.GenericComputeNode" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromSourceCode" />
-            </p:NodeReference>
-            <Pin Id="As8OlaPVXwBO1fAO5z2SAe" Name="Class Name" Kind="InputPin" />
-            <Pin Id="EUiCdJ5xDQ3M3vwIz3ImQi" Name="Shader Source Code" Kind="InputPin" />
-            <Pin Id="JajXWtwpaoTLCajvYvtpCX" Name="Composition" Kind="InputPin" />
-            <Pin Id="CGm0G9FWCkJNkTZUD4FEhB" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="EPqjQD03JvWNWTvS4QZnIC" Name="Compute Node" Kind="OutputPin" />
-          </Node>
-          <Pad Id="MoZ9wGwIXKHP8ziXWkPY8k" Comment="Class Name" Bounds="611,-616,79,15" ShowValueBox="true" isIOBox="true" Value="GetNormal">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="RwHhRNA4uEyP5Tm1vm6VEC" Comment="Shader Source Code" Bounds="805,-701,245,111" ShowValueBox="true" isIOBox="true" Value="shader GetNormal : ComputeFloat4, NormalStream&#xD;&#xA;{&#xD;&#xA;    override float4 Compute()&#xD;&#xA;    {&#xD;&#xA;        return float4(streams.meshNormal, 0);&#xD;&#xA;    }&#xD;&#xA;};">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="894,150,25,19" Id="SqJ90fBHpl2OO37MRMWQ4M">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Operations" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -536,7 +515,7 @@
             <Pin Id="LIPatGjNAIIMaBebR8hA3j" Name="Semantic" Kind="InputPin" />
             <Pin Id="I7VTiURPiGwNU6HbtjCLCL" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="BzABC1iTIBJNyQHDk6wqxz" Comment="Semantic" Bounds="438,-751,82,15" ShowValueBox="true" isIOBox="true" Value="POSITION_WS&#xD;&#xA;">
+          <Pad Id="BzABC1iTIBJNyQHDk6wqxz" Comment="Semantic" Bounds="437,-798,82,15" ShowValueBox="true" isIOBox="true" Value="POSITION_WS&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -563,12 +542,12 @@
             <Pin Id="U2QGuiEmV8XMtF9XbI3t4u" Name="Translation" Kind="InputPin" />
             <Pin Id="PkaikysTDeMM2z1Mby8ZpB" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="RnJSs4TMs00NIRBHfghQD7" Comment="Translation" Bounds="357,340,35,43" ShowValueBox="true" isIOBox="true" Value="0.81, 0.81, 0.81">
+          <Pad Id="RnJSs4TMs00NIRBHfghQD7" Comment="Translation" Bounds="357,340,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="761,-514,43,19" Id="MFD8h7xVRLOL7BIsRw2DCh">
+          <Node Bounds="814,-481,43,19" Id="MFD8h7xVRLOL7BIsRw2DCh">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Variables.TransformationKeys" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="ShaderFX" />
@@ -576,7 +555,7 @@
             </p:NodeReference>
             <Pin Id="GIVlSOElZfCP9lhHm8xa0g" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="693,-476,64,19" Id="FJ0v6PZE9sgLXi9TmhFx1R">
+          <Node Bounds="691,-445,64,19" Id="FJ0v6PZE9sgLXi9TmhFx1R">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Operations" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="ShaderFX" />
@@ -586,7 +565,7 @@
             <Pin Id="NVa3dU4x96JMVJ0pV2K7iY" Name="Input 2" Kind="InputPin" />
             <Pin Id="VkuTKrsFqF0PBpIyYyCJBf" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Qkny5stNTw1PixFa98ZumD" Comment="Rotation" Bounds="289,301,35,43" ShowValueBox="true" isIOBox="true" Value="0.86, 0.86, 0.86">
+          <Pad Id="Qkny5stNTw1PixFa98ZumD" Comment="Rotation" Bounds="289,301,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -678,7 +657,6 @@
             </Pin>
             <Pin Id="Uu2Vkzpv4VZNPHJgDcQBIs" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="CbrNVcJn3ooMu4mAnJ5lUu" Comment="Last Error" Bounds="636,586,162,44" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="851,-357,69,19" Id="EpsE4HpWx3qNPdI7cEpWFW">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Variables" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -720,7 +698,7 @@
               </p:TypeArguments>
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VrXzoEqUFFDLi9Yb8A68UT" Comment="Output" Bounds="678,-512" isIOBox="true">
+          <Pad Id="VrXzoEqUFFDLi9Yb8A68UT" Comment="Output" Bounds="696,-459" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Stride.Rendering.ShaderFX" LastSymbolSource="VL.Stride.Rendering.vl">
               <Choice Kind="TypeFlag" Name="Var" />
               <p:TypeArguments>
@@ -764,7 +742,7 @@
             <Pin Id="OEGq31Kgw45MYKHRRL1ikW" Name="Inverse View" Kind="OutputPin" />
             <Pin Id="GoqRPHEVIhxMgn0Z5sDAnh" Name="Camera Component" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1120,-496,73,19" Id="NSeSBGnJPijN1s0VE5cY3G">
+          <Node Bounds="1151,-481,73,19" Id="NSeSBGnJPijN1s0VE5cY3G">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Variables" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GetSemantic" />
@@ -774,7 +752,32 @@
             <Pin Id="ERfFstZhwIoOUlJTA3PRep" Name="Output" Kind="OutputPin" />
           </Node>
           <Overlay Id="Qcle2GaqnfUPl7pVAiSPPg" Name="Vertex Shader" Bounds="172,-197,289,351" />
-          <Overlay Id="BuzDIC90ruHMaTfsnfS5ZR" Name="Pixel Shader" Bounds="562,-729,777,1177" />
+          <Overlay Id="BuzDIC90ruHMaTfsnfS5ZR" Name="Pixel Shader" Bounds="562,-688,777,1136" />
+          <Pad Id="DdOAaIzR1unMCMYCkq91kM" Comment="Last Error" Bounds="618,611,140,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="690,-523,94,26" Id="OBAyLATwjukQMLKWS5FllY">
+            <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.GenericComputeNode" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromSourceCode" />
+            </p:NodeReference>
+            <Pin Id="As8OlaPVXwBO1fAO5z2SAe" Name="Class Name" Kind="InputPin" />
+            <Pin Id="EUiCdJ5xDQ3M3vwIz3ImQi" Name="Shader Source Code" Kind="InputPin" />
+            <Pin Id="JajXWtwpaoTLCajvYvtpCX" Name="Composition" Kind="InputPin" />
+            <Pin Id="CGm0G9FWCkJNkTZUD4FEhB" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="EPqjQD03JvWNWTvS4QZnIC" Name="Compute Node" Kind="OutputPin" />
+          </Node>
+          <Pad Id="RwHhRNA4uEyP5Tm1vm6VEC" Comment="Shader Source Code" Bounds="755,-644,254,107" ShowValueBox="true" isIOBox="true" Value="shader GetNormal : ComputeFloat4, NormalStream&#xD;&#xA;{&#xD;&#xA;    override float4 Compute()&#xD;&#xA;    {&#xD;&#xA;        return float4(streams.meshNormal, 0);&#xD;&#xA;    }&#xD;&#xA;};">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:shownonprintablechars p:Type="Boolean">false</p:shownonprintablechars>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="MoZ9wGwIXKHP8ziXWkPY8k" Comment="Class Name" Bounds="616,-573,57,15" ShowValueBox="true" isIOBox="true" Value="GetNormal">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="P2Ud5Gq2ThNLfbARv0aCxb" Name="Create" />
         <Patch Id="M0DkOfE9pPIM55AoCmynm6" Name="Update" />
@@ -806,8 +809,6 @@
         <Link Id="UKa60rL2xklLcHEAxMLgzF" Ids="BZaIfpui6MJPeK2qUYomO5,TXO8TNllTHFMfxo4kZJ5s6" />
         <Link Id="VhByjontHOFMh6Vj9NnsKz" Ids="QxHwd1Nnsq7ML4KHWNg05i,MewmU0mRi3SLcFEyHWrRSh" />
         <Link Id="TQeSlcObDGFO0vp1dsjIlQ" Ids="KIJSpkbzSyQLbVClnVXrHn,HYEZHveihrtPRCXr9SkEgu" />
-        <Link Id="IxU9oycqoQRMkXIWFzBsQn" Ids="MoZ9wGwIXKHP8ziXWkPY8k,As8OlaPVXwBO1fAO5z2SAe" />
-        <Link Id="K9arQKVH7xfLxE1vxBi5qE" Ids="RwHhRNA4uEyP5Tm1vm6VEC,EUiCdJ5xDQ3M3vwIz3ImQi" />
         <Link Id="H1E4pdKVgqGOe2tx9myTpf" Ids="Qnrk1oQusb9P3S0bUYnCrc,HBRaoeyyThnNDZsYA5YDZP" />
         <Link Id="MOrHWpEa6AKQBfDA4Gdvcn" Ids="JHjF8L2TjsyNSf2PE5482c,Csp1kCdtuMHL99CwU0xyV1" />
         <Link Id="Kdn3auI4s4BMduhnWYWJQo" Ids="HgPXpn1KEusMLHKzpjXL1A,IsX6wDOYX2QNMeK2rRsyAm" />
@@ -849,7 +850,6 @@
         <Link Id="OhX2qZfL0rYOhnpFiz1brW" Ids="FLokMiqSvPVPiMecNjcElV,AK8bEjD4nhgOT2WcTHeBWl" />
         <Link Id="QxdxJ1ALQVnNzVa0IEeE0o" Ids="PQnVtjh1CvcNA4AAwjsTax,O0zYppFog4JMROkXfOfkoO" />
         <Link Id="BA6YBMf32e6NJB6jR5rgty" Ids="PQnVtjh1CvcNA4AAwjsTax,IlSX2A5AUzUPOa88Ohg8MM" />
-        <Link Id="KIgepQfXgWDQWg2R86PxdS" Ids="GkQ60KKgCUEL8Dh6wkPX5D,CbrNVcJn3ooMu4mAnJ5lUu" />
         <Link Id="Ty9p4xFCcd4OrawROqEtz0" Ids="U24VF6LIgYLL0nTu0oGPas,LmYF3joz0HDLfWst9vuhOf" />
         <Link Id="Bhqkf08qMzLN7fmfGRonZS" Ids="LmYF3joz0HDLfWst9vuhOf,PEtAqS6PqJJQcPGpEcaGon" />
         <Link Id="JQYWjOCTeFUN0AUgI6b7ns" Ids="NtKsbDeWTm1MFi1DrUUxB5,PqvPYbBRrUfLtkxsEOmE4u" />
@@ -863,7 +863,6 @@
         <Link Id="LsFOY5uPDYoPr306ODgpMZ" Ids="SHhDQd19MLmQKhDu2ARXg1,DBRuKKc9kTKO8LKbxxtUp1" />
         <Link Id="HU1w41iNxerPZiv6njrJsT" Ids="LbAwAtQB610Nyii1UGVdAE,O0QaM1qDiP0O4NheigZZ3O" />
         <Link Id="O9i0juet75SQBYiEmZs1el" Ids="MOVw41cLQRgNEXKZuEVQMS,AXXOZ3A449ILINcbFXwGCx" />
-        <Link Id="H3elLUwG41BPiCWUlr0WjU" Ids="CGm0G9FWCkJNkTZUD4FEhB,VrXzoEqUFFDLi9Yb8A68UT" />
         <Link Id="P7hAV3Kumx7McQ8OFhoMp3" Ids="VrXzoEqUFFDLi9Yb8A68UT,Rq9SPW9nZZ9PsGiStpzoKP" />
         <Link Id="LUP3iLUNP4DOHMpRHICGpS" Ids="Voe86JTsjbBORBlJVND34t,HPqMuNzkWxkNC8l0Ac8xZd" />
         <Link Id="VDziGJ8tiQkNRDclw8dJEJ" Ids="Voe86JTsjbBORBlJVND34t,I96LKu1aEOUMiS6MxNYSza" />
@@ -876,6 +875,10 @@
         <Link Id="Cv0QsZSXP42OT8A7bcLaYh" Ids="BzABC1iTIBJNyQHDk6wqxz,DvfoN5L7jwrMjyfADZ3ASe" />
         <Link Id="I5BFsX6f6AUPDwPDb3NQIp" Ids="ERfFstZhwIoOUlJTA3PRep,AlzIvl9qg6WNvcgwuKe7n4" />
         <Link Id="FnJ1Rzsc8lpLdVtCK18ZKy" Ids="VkuTKrsFqF0PBpIyYyCJBf,Voe86JTsjbBORBlJVND34t" />
+        <Link Id="KTIZ2JU6lu6Me9c02HWYEq" Ids="GkQ60KKgCUEL8Dh6wkPX5D,DdOAaIzR1unMCMYCkq91kM" />
+        <Link Id="Jg0dWHbNai6LyIUcpW1XDk" Ids="MoZ9wGwIXKHP8ziXWkPY8k,As8OlaPVXwBO1fAO5z2SAe" />
+        <Link Id="HDpG42UkfSIPhq4zVkxcWC" Ids="RwHhRNA4uEyP5Tm1vm6VEC,EUiCdJ5xDQ3M3vwIz3ImQi" />
+        <Link Id="Ko7rIf6459aPXzTZOseOEO" Ids="CGm0G9FWCkJNkTZUD4FEhB,VrXzoEqUFFDLi9Yb8A68UT" />
       </Patch>
     </Node>
   </Patch>
