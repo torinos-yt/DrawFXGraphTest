@@ -563,7 +563,7 @@
             <Pin Id="U2QGuiEmV8XMtF9XbI3t4u" Name="Translation" Kind="InputPin" />
             <Pin Id="PkaikysTDeMM2z1Mby8ZpB" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="RnJSs4TMs00NIRBHfghQD7" Comment="Translation" Bounds="357,340,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+          <Pad Id="RnJSs4TMs00NIRBHfghQD7" Comment="Translation" Bounds="357,340,35,43" ShowValueBox="true" isIOBox="true" Value="0.81, 0.81, 0.81">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -586,7 +586,7 @@
             <Pin Id="NVa3dU4x96JMVJ0pV2K7iY" Name="Input 2" Kind="InputPin" />
             <Pin Id="VkuTKrsFqF0PBpIyYyCJBf" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Qkny5stNTw1PixFa98ZumD" Comment="Rotation" Bounds="289,301,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
+          <Pad Id="Qkny5stNTw1PixFa98ZumD" Comment="Rotation" Bounds="289,301,35,43" ShowValueBox="true" isIOBox="true" Value="0.86, 0.86, 0.86">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
