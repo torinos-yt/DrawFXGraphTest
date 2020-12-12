@@ -1174,7 +1174,7 @@
             <ControlPoint Id="VYg016A9WDcNCljD9y0AMf" Bounds="361,-209" Alignment="Bottom" />
             <ControlPoint Id="RMkU30NB1akQPwIOFxL7hl" Bounds="278,-209" Alignment="Bottom" />
           </Node>
-          <Pad Id="IGNcp4QPeMjP9Up043Wfee" Comment="Count" Bounds="363,-622,94,31" ShowValueBox="true" isIOBox="true" Value="100000">
+          <Pad Id="IGNcp4QPeMjP9Up043Wfee" Comment="Count" Bounds="363,-622,94,31" ShowValueBox="true" isIOBox="true" Value="10000">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
